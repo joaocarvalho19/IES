@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM docker2021repos/nginx:latest
 RUN rm -rf /usr/share/nginx/html
 COPY . /usr/share/nginx/html
 #FROM nginx:alpine
